@@ -850,7 +850,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5398969841042712861}
   - component: {fileID: 8537432551078172524}
-  - component: {fileID: 919132147707724214}
+  - component: {fileID: 5186534501265739734}
   m_Layer: 0
   m_Name: Astronaut_Frog
   m_TagString: Untagged
@@ -891,7 +891,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &919132147707724214
+--- !u!114 &5186534501265739734
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -900,9 +900,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 4730801454709060519}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc765067ce742744fa1e506a7fc6041c, type: 3}
+  m_Script: {fileID: 11500000, guid: 9205dd692e89e874a8b0590c9f53faa0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  forceAmount: 500
 --- !u!1 &5145554553435134780
 GameObject:
   m_ObjectHideFlags: 0

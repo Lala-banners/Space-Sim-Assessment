@@ -20,7 +20,6 @@ public class Tasks
      * Anti-aliasing
      * point, bilinear, trilinear buffering
      * frame rate limiter
-     * 
      * Print DOXYGEN 
      */
 
@@ -34,6 +33,5 @@ public class Tasks
      * Robo Fly pulls Frog along with robo thruster wings
      * Mouse movement 
      * Left Shift to give speed boost - also apply boost particle/shader
-     * 
      */
 }
