@@ -8,7 +8,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Helmet_1Mat
-    second: {fileID: 8886475640002011176, guid: 5e396bbedc77ee8488391073e947a419, type: 3}
+    second: {instanceID: 0}
   materials:
     materialImportMode: 2
     materialName: 0
