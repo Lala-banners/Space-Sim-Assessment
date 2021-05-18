@@ -10,9 +10,17 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Shoot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BulletPool.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
+      <option value="$PROJECT_DIR$/Assets/Scripts/SmoothFollow.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/RoboFlyInput.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/DragonflyFlight.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/BulletPool.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Shoot.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sefav34g15vcdEW1tYHRlEkrUV" />
@@ -25,6 +33,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -60,6 +72,9 @@
       <workItem from="1621238047745" duration="32000" />
       <workItem from="1621297377950" duration="409000" />
       <workItem from="1621298090570" duration="30000" />
+      <workItem from="1621319104946" duration="691000" />
+      <workItem from="1621319920829" duration="23000" />
+      <workItem from="1621319978304" duration="4828000" />
     </task>
     <servers />
   </component>
