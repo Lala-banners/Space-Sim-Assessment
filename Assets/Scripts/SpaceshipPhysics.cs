@@ -33,7 +33,7 @@ public class SpaceshipPhysics : MonoBehaviour
         if (rb != null)
         {
             rb.AddRelativeForce(appliedLinearForce * forceMultiplier, ForceMode.Force);
-            rb.AddRelativeForce(appliedAngularForce * forceMultiplier, ForceMode.Force);
+            rb.AddRelativeTorque(appliedAngularForce * forceMultiplier, ForceMode.Force);
         }
     }
 
