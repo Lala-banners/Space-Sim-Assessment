@@ -16,8 +16,8 @@ public class Shoot : MonoBehaviour
         GameObject bullet = BulletPool.pool.GetPooledObject("Bullet");
         if (bullet != null)
         {
-            bullet.GetComponent<Rigidbody>().AddForce(transform.up * 10000);
-            bullet.transform.position = BulletPool.pool.spawnLocation.transform.position;
+            bullet.GetComponent<Rigidbody>().AddForce(transform.forward * 10000);
+            bullet.transform.SetParent(BulletPool.pool.spawnLocation.transform);
             bullet.transform.rotation = BulletPool.pool.spawnLocation.transform.rotation;
             bullet.SetActive(true);
         }

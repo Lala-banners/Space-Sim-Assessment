@@ -11,6 +11,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SpaceshipPhysics.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Shoot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BulletPool.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -18,9 +19,12 @@
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Scripts/SmoothFollow.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/RoboFlyInput.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/DragonflyFlight.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/BulletPool.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Shoot.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/DragonflyFlight.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/SpaceshipPhysics.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/SpaceshipInput.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Spaceship.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sefav34g15vcdEW1tYHRlEkrUV" />
@@ -74,7 +78,8 @@
       <workItem from="1621298090570" duration="30000" />
       <workItem from="1621319104946" duration="691000" />
       <workItem from="1621319920829" duration="23000" />
-      <workItem from="1621319978304" duration="4828000" />
+      <workItem from="1621319978304" duration="5675000" />
+      <workItem from="1621914287361" duration="9865000" />
     </task>
     <servers />
   </component>
