@@ -43,6 +43,7 @@ public class SpaceshipPhysics : MonoBehaviour
     /// from -1 to 1, but not clamped.
     /// </summary>
     public void SetPhysicsInput(Vector3 linearInput, Vector3 angularInput) {
+        Debug.Log(linearInput + " " + angularInput);
         appliedLinearForce = MultiplyByComponent(linearInput, linearForce);
         appliedAngularForce = MultiplyByComponent(angularInput, angularForce);
     }
