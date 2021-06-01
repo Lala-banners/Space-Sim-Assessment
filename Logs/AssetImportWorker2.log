@@ -1221,3 +1221,506 @@ Received Import Request.
 Start importing Assets/Prefabs/Rocket25_Red.prefab using Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc21a6bb78bd9f063b485bb5d8e10494') in 0.011906 seconds
   Import took 0.015453 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002158 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.853 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1903 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.0 MB.
+System memory in use after: 89.1 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2482.
+Total: 3.054400 ms (FindLiveObjects: 0.443700 ms CreateObjectMapping: 0.167700 ms MarkObjects: 2.364500 ms  DeleteObjects: 0.076900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001904 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.852 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1903 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.0 MB.
+System memory in use after: 89.1 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2484.
+Total: 2.853800 ms (FindLiveObjects: 0.284000 ms CreateObjectMapping: 0.104200 ms MarkObjects: 2.384400 ms  DeleteObjects: 0.079800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 122.081723 seconds.
+  path: Assets/Prefabs/Rocket25_Red.prefab
+  artifactKey: Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rocket25_Red.prefab using Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c80c5bf083c62b21ca0d3b61455ce28') in 0.069715 seconds
+  Import took 0.073310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.241282 seconds.
+  path: Assets/Prefabs/Rocket25_Red.prefab
+  artifactKey: Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rocket25_Red.prefab using Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c360cd9ee8c8a0c437fba8062dd35f0') in 0.013182 seconds
+  Import took 0.017228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.621186 seconds.
+  path: Assets/Prefabs/Rocket25_Red.prefab
+  artifactKey: Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rocket25_Red.prefab using Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04ed31c1b202259efe87ab824c602c31') in 0.012534 seconds
+  Import took 0.015850 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002074 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.878 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1903 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.9 MB.
+System memory in use after: 89.0 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2487.
+Total: 3.186100 ms (FindLiveObjects: 0.339200 ms CreateObjectMapping: 0.141800 ms MarkObjects: 2.607600 ms  DeleteObjects: 0.096100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001570 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.908 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1903 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.0 MB.
+System memory in use after: 89.1 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2489.
+Total: 3.392300 ms (FindLiveObjects: 0.314400 ms CreateObjectMapping: 0.141400 ms MarkObjects: 2.849800 ms  DeleteObjects: 0.084500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 70.707127 seconds.
+  path: Assets/Prefabs/Rocket25_Red.prefab
+  artifactKey: Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rocket25_Red.prefab using Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b39f787830caa388da78d70ee2f36e2') in 0.099628 seconds
+  Import took 0.104493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.216537 seconds.
+  path: Assets/Prefabs/Rocket25_Red.prefab
+  artifactKey: Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rocket25_Red.prefab using Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c5e179e381662178b0311a81613ce18') in 0.014214 seconds
+  Import took 0.018478 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001596 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.847 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1903 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.0 MB.
+System memory in use after: 89.1 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2492.
+Total: 3.484900 ms (FindLiveObjects: 0.493700 ms CreateObjectMapping: 0.259200 ms MarkObjects: 2.649000 ms  DeleteObjects: 0.080400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.024954 seconds.
+  path: Assets/Prefabs/Rocket25_Red.prefab
+  artifactKey: Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rocket25_Red.prefab using Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6668d74953a6ee15ea559059499a9ed4') in 0.108622 seconds
+  Import took 0.114217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030207 seconds.
+  path: Assets/Prefabs/Rocket25_Red.prefab
+  artifactKey: Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rocket25_Red.prefab using Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79b9a6a115776d24b963c0157affe3eb') in 0.015879 seconds
+  Import took 0.019230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030796 seconds.
+  path: Assets/Prefabs/Rocket25_Red.prefab
+  artifactKey: Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rocket25_Red.prefab using Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79b9a6a115776d24b963c0157affe3eb') in 0.018849 seconds
+  Import took 0.022591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.960968 seconds.
+  path: Assets/Prefabs/Rocket25_Red.prefab
+  artifactKey: Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rocket25_Red.prefab using Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cf1d749259710570baa519899183810') in 0.012635 seconds
+  Import took 0.016924 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.612474 seconds.
+  path: Assets/Prefabs/Rocket25_Red.prefab
+  artifactKey: Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rocket25_Red.prefab using Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c72de18487f2b9eab44eab9ea55bf065') in 0.028953 seconds
+  Import took 0.031988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.342572 seconds.
+  path: Assets/Prefabs/Rocket25_Red.prefab
+  artifactKey: Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rocket25_Red.prefab using Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e9078279c16dec93f0abf612b4c7210') in 0.012647 seconds
+  Import took 0.015815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.152318 seconds.
+  path: Assets/Prefabs/Rocket25_Red.prefab
+  artifactKey: Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rocket25_Red.prefab using Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21bcca23af4f52cd14a91a7da72d995a') in 0.018771 seconds
+  Import took 0.021907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.191384 seconds.
+  path: Assets/Prefabs/Rocket25_Red.prefab
+  artifactKey: Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rocket25_Red.prefab using Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90e9f22f7e658701d74e8110f491d3c7') in 0.011022 seconds
+  Import took 0.014378 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001599 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.895 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1903 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.0 MB.
+System memory in use after: 89.1 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2495.
+Total: 3.459800 ms (FindLiveObjects: 0.435100 ms CreateObjectMapping: 0.143300 ms MarkObjects: 2.817700 ms  DeleteObjects: 0.062000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.045994 seconds.
+  path: Assets/Prefabs/Rocket25_Red.prefab
+  artifactKey: Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rocket25_Red.prefab using Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00a7935137c5362450729613e69f70a0') in 0.100989 seconds
+  Import took 0.107952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.843992 seconds.
+  path: Assets/Prefabs/Rocket25_Red.prefab
+  artifactKey: Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rocket25_Red.prefab using Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e038ef457429bac3504fce59f1df2aa') in 0.012501 seconds
+  Import took 0.015604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.437754 seconds.
+  path: Assets/Prefabs/Rocket25_Red.prefab
+  artifactKey: Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rocket25_Red.prefab using Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55514493eed44bfb8787d2227643e4d1') in 0.017122 seconds
+  Import took 0.020406 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001571 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.845 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1903 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.1 MB.
+System memory in use after: 89.2 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2498.
+Total: 3.738300 ms (FindLiveObjects: 0.395000 ms CreateObjectMapping: 0.169400 ms MarkObjects: 3.086600 ms  DeleteObjects: 0.085500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.794213 seconds.
+  path: Assets/Prefabs/Rocket25_Red.prefab
+  artifactKey: Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rocket25_Red.prefab using Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1b3bb6b7b2b556f81488e29f4ac4f01') in 0.101323 seconds
+  Import took 0.107433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.192501 seconds.
+  path: Assets/Prefabs/Rocket25_Red.prefab
+  artifactKey: Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rocket25_Red.prefab using Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '377a76038837e4f214f15ee6be5340c5') in 0.013905 seconds
+  Import took 0.017151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.246729 seconds.
+  path: Assets/Prefabs/Rocket25_Red.prefab
+  artifactKey: Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rocket25_Red.prefab using Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daafc0990bfb5ae6b2b990c929e671e7') in 0.012767 seconds
+  Import took 0.015912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.074235 seconds.
+  path: Assets/Prefabs/Rocket25_Red.prefab
+  artifactKey: Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rocket25_Red.prefab using Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bb5ac89dcfdb51d772eb0a30d039631') in 0.011693 seconds
+  Import took 0.016119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.530041 seconds.
+  path: Assets/Prefabs/Rocket25_Red.prefab
+  artifactKey: Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rocket25_Red.prefab using Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bac05137dea272f7312a8e66e2b3d4e') in 0.011944 seconds
+  Import took 0.016282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.330256 seconds.
+  path: Assets/Prefabs/Rocket25_Red.prefab
+  artifactKey: Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rocket25_Red.prefab using Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '369421d713d6e78d5f9b47e50aa991d7') in 0.012050 seconds
+  Import took 0.015498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.481055 seconds.
+  path: Assets/Prefabs/Rocket25_Red.prefab
+  artifactKey: Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rocket25_Red.prefab using Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e13b0c0a0c6550504dd2a935e2560c21') in 0.016246 seconds
+  Import took 0.020256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.246310 seconds.
+  path: Assets/Prefabs/Rocket25_Red.prefab
+  artifactKey: Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rocket25_Red.prefab using Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7298863a56e6ab14ade71634edc972e') in 0.018602 seconds
+  Import took 0.022540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.598749 seconds.
+  path: Assets/Prefabs/Rocket25_Red.prefab
+  artifactKey: Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rocket25_Red.prefab using Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '920e631aeeca29fc79bbccc10b29ab38') in 0.013282 seconds
+  Import took 0.016848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.245116 seconds.
+  path: Assets/Prefabs/Rocket25_Red.prefab
+  artifactKey: Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rocket25_Red.prefab using Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47322c39b531a497581d99c687ab7054') in 0.014667 seconds
+  Import took 0.017791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.447440 seconds.
+  path: Assets/Prefabs/Rocket25_Red.prefab
+  artifactKey: Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rocket25_Red.prefab using Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab51730cc132146ded3ad13b483cf2cc') in 0.011525 seconds
+  Import took 0.014741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.909050 seconds.
+  path: Assets/Prefabs/Rocket25_Red.prefab
+  artifactKey: Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rocket25_Red.prefab using Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88d939a80b63469c62e7d9eb2e1adb8e') in 0.014301 seconds
+  Import took 0.017937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.328846 seconds.
+  path: Assets/Prefabs/Rocket25_Red.prefab
+  artifactKey: Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rocket25_Red.prefab using Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b65e304484cca29b4bea3206d2978c0') in 0.013854 seconds
+  Import took 0.017617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.622733 seconds.
+  path: Assets/Prefabs/Rocket25_Red.prefab
+  artifactKey: Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rocket25_Red.prefab using Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afa3d775ff85bd4a10023fb85ea14338') in 0.014327 seconds
+  Import took 0.018183 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001554 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.873 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1903 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.1 MB.
+System memory in use after: 89.2 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2501.
+Total: 2.069900 ms (FindLiveObjects: 0.233500 ms CreateObjectMapping: 0.074400 ms MarkObjects: 1.697900 ms  DeleteObjects: 0.063100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.910128 seconds.
+  path: Assets/Prefabs/Rocket25_Red.prefab
+  artifactKey: Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rocket25_Red.prefab using Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '388a163da8371f256c124ac8c51d763e') in 0.085553 seconds
+  Import took 0.089579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.338955 seconds.
+  path: Assets/Prefabs/Rocket25_Red.prefab
+  artifactKey: Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rocket25_Red.prefab using Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81d17a3d03a73d2d954768d0e0c2ab3d') in 0.022307 seconds
+  Import took 0.026221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.407211 seconds.
+  path: Assets/Prefabs/Rocket25_Red.prefab
+  artifactKey: Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rocket25_Red.prefab using Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49c6b1337c6b03b33568741e4a3cf10d') in 0.013244 seconds
+  Import took 0.017427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.763718 seconds.
+  path: Assets/Prefabs/Rocket25_Red.prefab
+  artifactKey: Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rocket25_Red.prefab using Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45394b71ea5e7c2d32f74dda582abbf6') in 0.014520 seconds
+  Import took 0.017958 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002067 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.866 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1903 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.1 MB.
+System memory in use after: 89.2 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2504.
+Total: 3.505700 ms (FindLiveObjects: 0.320800 ms CreateObjectMapping: 0.120800 ms MarkObjects: 2.993500 ms  DeleteObjects: 0.068700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.844790 seconds.
+  path: Assets/Prefabs/Rocket25_Red.prefab
+  artifactKey: Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rocket25_Red.prefab using Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8ca991f8f837e5e2356a078580140d5') in 0.098084 seconds
+  Import took 0.105251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.170511 seconds.
+  path: Assets/Prefabs/Rocket25_Red.prefab
+  artifactKey: Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rocket25_Red.prefab using Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93f5d89d3e5bef1d429c9472a8607772') in 0.013185 seconds
+  Import took 0.016889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.201926 seconds.
+  path: Assets/Prefabs/Rocket25_Red.prefab
+  artifactKey: Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rocket25_Red.prefab using Guid(c3d2ff021d5e571409f931cdad2dd3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23d32655f281fd959bb5c55c08be386f') in 0.012176 seconds
+  Import took 0.015508 seconds .
+
