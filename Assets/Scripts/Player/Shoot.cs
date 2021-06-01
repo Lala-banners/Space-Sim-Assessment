@@ -12,7 +12,7 @@ public class Shoot : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.DrawRay(firePoint.position, -transform.up * 9999, Color.green);
+        Debug.DrawRay(firePoint.position, -transform.up * Mathf.Infinity, Color.green);
         
         if (Physics.Raycast(firePoint.position, -transform.up, out RaycastHit hit, Mathf.Infinity))
         {
@@ -40,7 +40,7 @@ public class Shoot : MonoBehaviour
             }
         }
         
-        if (Input.GetKeyDown(KeyCode.K))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             ShootBullet();
             DecreaseAmmo(1);

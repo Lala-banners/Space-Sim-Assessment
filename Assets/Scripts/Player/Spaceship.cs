@@ -1,4 +1,3 @@
-using System;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -10,14 +9,16 @@ public class Spaceship : MonoBehaviour
 {
     public GameObject enemy;
 
-    [Header("Ship Stats")] public bool isPlayer = false;
+    [Header("Ship Stats")] 
+    public bool isPlayer = false;
     public Transform beacon;
     public TMP_Text distanceText;
     public Transform enemySpawn;
     [SerializeField] private bool shouldEnemySpawn;
     private float distance;
 
-    [Header("Health")] public float currentHealth = 100;
+    [Header("Health")] 
+    public float currentHealth = 100;
     public float maximumHealth = 100;
     public Image healthRing;
     public float smoothSpeed;

@@ -16,10 +16,11 @@ public class SpaceshipInput : MonoBehaviour
     [Range(-1, 1)] public float strafe;
     [Range(-1, 1)] public float throttle;
 
-    private const float ThrottleSpeed = 0.5f;
+    private const float ThrottleSpeed = 50f;
     private const float RollSpeed = 5f;
 
     private Spaceship ship;
+    public float deadZone;
 
     private void Awake() {
         ship = GetComponent<Spaceship>();
@@ -96,18 +97,22 @@ public class SpaceshipInput : MonoBehaviour
     private void SetStickCmdUsingMouse() {
         Vector3 mousePos = Input.mousePosition;
 
-        pitch = (mousePos.y - (Screen.height * 0.5f)) / (Screen.height * 0.5f);
+        pitch =  (mousePos.y - (Screen.height * 0.5f)) / (Screen.height * 0.5f);
         yaw = (mousePos.x - (Screen.width * 0.5f)) / (Screen.width * 0.5f);
 
-        pitch = -Mathf.Clamp(pitch, -1.0f, 1.0f);
+        pitch = Mathf.Clamp(pitch, -1.0f, 1.0f);
+        if (pitch > -deadZone && pitch < deadZone)
+            pitch = 0;
         yaw = Mathf.Clamp(yaw, -1.0f, 1.0f);
+        if (yaw > -deadZone && yaw < deadZone)
+            yaw = 0;
     }
 
     /// <summary>
     /// Use mouse scroll wheel to control throttle.
     /// </summary>
     private void UpdateMouseWheelThrottle() {
-        throttle += Input.GetAxis("Mouse ScrollWheel");
+        throttle *= Input.GetAxis("Mouse ScrollWheel");
         throttle = Mathf.Clamp(throttle, 0.0f, 1.0f);
     }
 }

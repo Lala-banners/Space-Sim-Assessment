@@ -1,9 +1,11 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class SpawnEnemy : MonoBehaviour
+public class ShootPlayer : MonoBehaviour
 {
+    [Header("Shooting")] 
+    public GameObject rocket;
+    public Transform firePoint;
+    
     // Start is called before the first frame update
     void Start()
     {
