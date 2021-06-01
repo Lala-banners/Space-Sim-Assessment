@@ -43,8 +43,16 @@ public class Shoot : MonoBehaviour
         {
             bullet.transform.SetParent(SpacePool.pool.spawnLocation.transform);
             bullet.transform.rotation = SpacePool.pool.spawnLocation.transform.rotation;
-            bullet.GetComponent<Rigidbody>().AddRelativeForce(Vector3.forward, ForceMode.Acceleration);
             bullet.SetActive(true);
+        }
+        
+        Debug.DrawRay(bullet.transform.position, Vector3.forward, Color.green);
+        if (Physics.Raycast(bullet.transform.position, Vector3.forward, out RaycastHit hit))
+        {
+            if (hit.collider.gameObject.CompareTag("Enemy"))
+            {
+                Debug.Log("Enemy Hit!");
+            }
         }
     }
     

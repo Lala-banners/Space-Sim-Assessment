@@ -14,7 +14,7 @@ public class Spaceship : MonoBehaviour
     public Transform beacon;
     public TMP_Text distanceText;
     public Transform enemySpawn;
-    private bool shouldEnemySpawn;
+    [SerializeField] private bool shouldEnemySpawn;
     private float distance;
 
     [Header("Health")] public float currentHealth = 100;
@@ -54,22 +54,27 @@ public class Spaceship : MonoBehaviour
     }
 
     private void Update() {
-        
-        if (shouldEnemySpawn)
-        {
-            PlanetPosition();
-        }
-        else if(!shouldEnemySpawn)
-        {
-            shouldEnemySpawn = true;
-        }
-        
         //Player Health
         UpdateHealth();
 
         //Distance between ship and the beacon
         distance = Vector3.Distance(beacon.position, transform.position);
         distanceText.text = "Distance To Planet Beacon: " + distance;
+
+        if (!shouldEnemySpawn)
+        {
+            if (distance <= 100)
+            {
+                //Spawn enemy ship
+                shouldEnemySpawn = true;
+                enemy = Instantiate(enemy, enemySpawn.position, enemySpawn.rotation);
+                Debug.Log("Enemy Ship Approaching!");
+            }
+            else
+            {
+                Debug.Log("Not close enough to planet");
+            }
+        }
     }
 
 
@@ -82,23 +87,6 @@ public class Spaceship : MonoBehaviour
             playerShip = this;
         }
     }
-
-    #region Positions
-
-    public void PlanetPosition() {
-        if (distance <= 100)
-        {
-            enemy = Instantiate(enemy, enemySpawn.position, enemySpawn.rotation);
-        }
-        else
-        {
-            //Don't spawn
-            enemy = null;
-        }
-    }
-
-    #endregion
-
 
     #region Health
 

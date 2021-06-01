@@ -1174,7 +1174,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1473416308}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -1000}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1211275175}
@@ -1878,6 +1878,7 @@ MonoBehaviour:
   beacon: {fileID: 2140673008}
   distanceText: {fileID: 569480357}
   enemySpawn: {fileID: 1849305670}
+  shouldEnemySpawn: 0
   currentHealth: 100
   maximumHealth: 100
   healthRing: {fileID: 1030045246}
