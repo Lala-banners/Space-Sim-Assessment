@@ -43,8 +43,8 @@ Material:
     - _Tiling: 2
     - _UJump: 0.25
     - _VJump: 0.25
-    - _WaterFogDensity: 0.08
+    - _WaterFogDensity: 0.66
     m_Colors:
     - _Color: {r: 0.9811321, g: 0.9811321, b: 0.9811321, a: 0}
-    - _WaterFogColour: {r: 0.6666667, g: 0.8337879, b: 1, a: 0}
+    - _WaterFogColour: {r: 0.18903522, g: 0.37975413, b: 0.5660378, a: 0}
   m_BuildTextureStacks: []
