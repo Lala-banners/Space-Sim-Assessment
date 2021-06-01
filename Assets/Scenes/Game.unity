@@ -540,7 +540,7 @@ GameObject:
   m_Component:
   - component: {fileID: 686458286}
   m_Layer: 0
-  m_Name: Cannon Fire Point
+  m_Name: Fire Point
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1011,7 +1011,7 @@ GameObject:
   - component: {fileID: 1475351228}
   - component: {fileID: 1473416305}
   m_Layer: 0
-  m_Name: CannonMedium
+  m_Name: Cannon Object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1032,6 +1032,7 @@ MonoBehaviour:
   bullet: {fileID: 1374063425668206, guid: c3d2ff021d5e571409f931cdad2dd3f1, type: 3}
   ammunition: 20
   ammoText: {fileID: 1904660243}
+  firePoint: {fileID: 686458286}
 --- !u!1 &1473416306
 GameObject:
   m_ObjectHideFlags: 0
@@ -1042,7 +1043,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1473581138}
   m_Layer: 0
-  m_Name: CannonMedium
+  m_Name: Cannon Container
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1062,7 +1063,7 @@ GameObject:
   - component: {fileID: 7739708415390317362}
   - component: {fileID: 8116787259326860035}
   m_Layer: 0
-  m_Name: FighterMediumPrefab
+  m_Name: '[Player Ship]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1080,7 +1081,7 @@ GameObject:
   - component: {fileID: 1474383992}
   - component: {fileID: 1475351224}
   m_Layer: 0
-  m_Name: FighterMedium
+  m_Name: Fighter Object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1096,7 +1097,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1473581146}
   m_Layer: 0
-  m_Name: FighterMedium
+  m_Name: Ship Container
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

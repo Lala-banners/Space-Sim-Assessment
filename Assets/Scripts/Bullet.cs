@@ -8,14 +8,15 @@ public class Bullet : MonoBehaviour
     // Start is called before the first frame update
     void Start() {
         rb = GetComponent<Rigidbody>();
+        rb.velocity = transform.up * speed;
     }
 
     private void FixedUpdate() {
         //Shoot bullet
-        float moveH = Input.GetAxis("Horizontal");
-        float moveV = Input.GetAxis("Vertical");
+        //float moveH = Input.GetAxis("Horizontal");
+        //float moveV = Input.GetAxis("Vertical");
 
-        Vector3 moveBullet = new Vector3(moveH, 0f, moveV);
-        rb.velocity = moveBullet * speed;
+        //Vector3 moveBullet = new Vector3(moveH, 0f, moveV);
+        
     }
 }

@@ -7,10 +7,22 @@ public class Shoot : MonoBehaviour
     public int ammunition;
     private int maxAmmo = 20;
     public TMP_Text ammoText;
+    public Transform firePoint;
 
     // Update is called once per frame
     void Update()
     {
+        Debug.DrawRay(firePoint.position, -transform.up * 9999, Color.green);
+        
+        if (Physics.Raycast(firePoint.position, -transform.up, out RaycastHit hit, Mathf.Infinity))
+        {
+            if (hit.collider.gameObject.CompareTag("Enemy"))
+            {
+                Debug.Log("Enemy Hit!");
+            }
+        }
+        
+        
         ammoText.text = "Ammo: " + ammunition;
     
         if (ammunition <= 0)
@@ -44,15 +56,6 @@ public class Shoot : MonoBehaviour
             bullet.transform.SetParent(SpacePool.pool.spawnLocation.transform);
             bullet.transform.rotation = SpacePool.pool.spawnLocation.transform.rotation;
             bullet.SetActive(true);
-        }
-        
-        Debug.DrawRay(bullet.transform.position, Vector3.forward, Color.green);
-        if (Physics.Raycast(bullet.transform.position, Vector3.forward, out RaycastHit hit))
-        {
-            if (hit.collider.gameObject.CompareTag("Enemy"))
-            {
-                Debug.Log("Enemy Hit!");
-            }
         }
     }
     

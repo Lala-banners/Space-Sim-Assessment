@@ -13,12 +13,13 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SpawnEnemy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Crosshairs.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Cross-Platform-Game/Assets/Scripts/Gameplay/_GameManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Cross-Platform-Game/Assets/Scripts/Gameplay/BallPosition.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Cross-Platform-Game/Assets/Scripts/Gameplay/Ball.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bullet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../IsSus-Framework-Assessment/isSus/Assets/isSus/PlayerController 2/Scripts/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SpaceshipPhysics.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Cross-Platform-Game/Assets/Scripts/Gameplay/_GameManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Cross-Platform-Game/Assets/Scripts/Gameplay/BallPosition.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bullet.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ChangeRenderTexture.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Shoot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Cross-Platform-Game/Assets/Scripts/Gameplay/ObjectPool.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SpacePool.cs" root0="FORCE_HIGHLIGHTING" />
@@ -33,11 +34,12 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/SpaceshipInput.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Crosshairs.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/SpaceshipPhysics.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/SpacePool.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/SpawnEnemy.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Shoot.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Spaceship.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/ChangeRenderTexture.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Shoot.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sefav34g15vcdEW1tYHRlEkrUV" />
@@ -95,7 +97,7 @@
       <workItem from="1621319920829" duration="23000" />
       <workItem from="1621319978304" duration="5675000" />
       <workItem from="1621914287361" duration="13756000" />
-      <workItem from="1622509194614" duration="14941000" />
+      <workItem from="1622509194614" duration="16897000" />
     </task>
     <servers />
   </component>
