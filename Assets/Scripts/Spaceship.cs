@@ -1,3 +1,4 @@
+using System;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -7,21 +8,22 @@ using UnityEngine.UI;
 [RequireComponent(typeof(SpaceshipInput))]
 public class Spaceship : MonoBehaviour
 {
-    [Header("Ship Stats")] 
-    public bool isPlayer = false;
+    public GameObject enemy;
+
+    [Header("Ship Stats")] public bool isPlayer = false;
     public Transform beacon;
     public TMP_Text distanceText;
     public Transform enemySpawn;
-    public bool shouldEnemySpawn = false;
+    private bool shouldEnemySpawn;
+    private float distance;
 
-    [Header("Health")] 
-    public float currentHealth = 100;
+    [Header("Health")] public float currentHealth = 100;
     public float maximumHealth = 100;
     public Image healthRing;
     public float smoothSpeed;
 
     #region Properties
-    
+
     private SpaceshipInput _input;
     private SpaceshipPhysics _physics;
 
@@ -42,8 +44,9 @@ public class Spaceship : MonoBehaviour
     public float Throttle {
         get { return _input.throttle; }
     }
+
     #endregion
-    
+
     private void Awake() {
         _input = GetComponent<SpaceshipInput>();
         _physics = GetComponent<SpaceshipPhysics>();
@@ -51,11 +54,22 @@ public class Spaceship : MonoBehaviour
     }
 
     private void Update() {
-        //Distance between ship and the beacon
-        PlanetPosition();
-
+        
+        if (shouldEnemySpawn)
+        {
+            PlanetPosition();
+        }
+        else if(!shouldEnemySpawn)
+        {
+            shouldEnemySpawn = true;
+        }
+        
         //Player Health
         UpdateHealth();
+
+        //Distance between ship and the beacon
+        distance = Vector3.Distance(beacon.position, transform.position);
+        distanceText.text = "Distance To Planet Beacon: " + distance;
     }
 
 
@@ -72,23 +86,20 @@ public class Spaceship : MonoBehaviour
     #region Positions
 
     public void PlanetPosition() {
-        if (beacon)
+        if (distance <= 100)
         {
-            float distance = Vector3.Distance(beacon.position, transform.position);
-            distanceText.text = "Distance To Planet Beacon: " + distance;
-            shouldEnemySpawn = false;
-
-            if (distance < 10f)
-            {
-                shouldEnemySpawn = true;
-                SpawnEnemy();
-            }
+            enemy = Instantiate(enemy, enemySpawn.position, enemySpawn.rotation);
+        }
+        else
+        {
+            //Don't spawn
+            enemy = null;
         }
     }
 
     #endregion
-    
-    
+
+
     #region Health
 
     public void UpdateHealth() {
@@ -97,7 +108,7 @@ public class Spaceship : MonoBehaviour
         Health();
         HealthRingColourChange();
     }
-    
+
     public void Health() {
         healthRing.fillAmount = Mathf.Lerp(healthRing.fillAmount, currentHealth / maximumHealth, smoothSpeed);
     }
@@ -116,20 +127,6 @@ public class Spaceship : MonoBehaviour
 
     public void TakeDamage(float _damage) {
         if (currentHealth > 0) currentHealth -= _damage;
-    }
-
-    #endregion
-
-    #region Spawn Enemy Ship
-
-    public void SpawnEnemy() {
-        GameObject enemyShip = SpacePool.pool.GetPooledObject("Enemy");
-
-        if (enemyShip != null)
-        {
-            enemyShip.transform.position = enemySpawn.position;
-            enemyShip.SetActive(true);
-        }
     }
 
     #endregion

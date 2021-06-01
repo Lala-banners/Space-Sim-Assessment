@@ -16,11 +16,8 @@ public class SpacePool : MonoBehaviour
     public static SpacePool pool;
     public List<GameObject> pooledObjects;
     public List<ObjectPoolItem> itemsToPool;
-    public Transform firePoint;
+    public Transform spawnLocation;
 
-    //[Header("Asteroids")]
-    
-    
     private void Awake()
     {
         pool = this;
@@ -33,7 +30,7 @@ public class SpacePool : MonoBehaviour
         {
             for (int i = 0; i < item.amountToPool; i++)
             {
-                GameObject obj = Instantiate(item.objectToPool, firePoint);
+                GameObject obj = Instantiate(item.objectToPool, spawnLocation);
                 obj.SetActive(false);
                 pooledObjects.Add(obj);
             }
@@ -59,7 +56,7 @@ public class SpacePool : MonoBehaviour
             {
                 if (item.shouldExpand)
                 {
-                    GameObject obj = Instantiate(item.objectToPool, firePoint);
+                    GameObject obj = Instantiate(item.objectToPool, spawnLocation);
                     obj.SetActive(false);
                     pooledObjects.Add(obj);
                     return obj;

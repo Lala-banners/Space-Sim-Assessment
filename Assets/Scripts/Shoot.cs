@@ -41,8 +41,8 @@ public class Shoot : MonoBehaviour
         bullet = SpacePool.pool.GetPooledObject("Bullet");
         if (bullet != null)
         {
-            bullet.transform.SetParent(SpacePool.pool.firePoint.transform);
-            bullet.transform.rotation = SpacePool.pool.firePoint.transform.rotation;
+            bullet.transform.SetParent(SpacePool.pool.spawnLocation.transform);
+            bullet.transform.rotation = SpacePool.pool.spawnLocation.transform.rotation;
             bullet.GetComponent<Rigidbody>().AddRelativeForce(Vector3.forward, ForceMode.Acceleration);
             bullet.SetActive(true);
         }
