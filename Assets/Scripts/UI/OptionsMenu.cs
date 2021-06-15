@@ -9,7 +9,6 @@ using UnityEngine.UI;
 public class OptionsMenu : MonoBehaviour
 {
     /* Options Menu Requirements
-     * Resolution
      * TODO: Change colour depth buffer (Camera.SetTargetBuffers)
      * TODO: Anti-Aliasing
      * TODO: Anisotropic Filtering
@@ -26,6 +25,7 @@ public class OptionsMenu : MonoBehaviour
     [Header("Quality Settings")]
     public TMP_Dropdown qualityDropdown;
     public Toggle fullscreenToggle;
+    public Toggle ansiotrophicFilter;
 
     [Space]
     
@@ -51,6 +51,17 @@ public class OptionsMenu : MonoBehaviour
             optionsMenu.SetActive(false);
             mainMenu.SetActive(true);
         });
+    }
+
+    public void AnsiotrophicFilterToggle() {
+        if (ansiotrophicFilter.isOn)
+        {
+            QualitySettings.anisotropicFiltering = AnisotropicFiltering.ForceEnable;
+        }
+        else
+        {
+            QualitySettings.anisotropicFiltering = AnisotropicFiltering.Disable;
+        }
     }
     
     /// <summary>
