@@ -8,6 +8,7 @@ public class Shoot : MonoBehaviour
     private int maxAmmo = 20;
     public TMP_Text ammoText;
     public Transform firePoint;
+    
 
     // Update is called once per frame
     void Update()

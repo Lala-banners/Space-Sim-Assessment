@@ -11,11 +11,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/../Cross-Platform-Game/Assets/Scripts/Gameplay/Ball.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../IsSus-Framework-Assessment/isSus/Assets/isSus/PlayerController 2/Scripts/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Cross-Platform-Game/Assets/Scripts/Gameplay/_GameManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Cross-Platform-Game/Assets/Scripts/Gameplay/BallPosition.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyStats.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Cross-Platform-Game/Assets/Scripts/Gameplay/Ball.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../IsSus-Framework-Assessment/isSus/Assets/isSus/PlayerController 2/Scripts/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Cross-Platform-Game/Assets/Scripts/Gameplay/ObjectPool.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Cross-Platform-Game/Assets/Scripts/Gameplay/MasterPet.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -34,9 +34,10 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/SpaceshipPhysics.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/SpaceshipInput.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Shoot.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/ShootPlayer.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/Spaceship.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyStats.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player/Shoot.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/ShootPlayer.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sefav34g15vcdEW1tYHRlEkrUV" />
@@ -58,20 +59,20 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor &amp; Play">
-    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="35664">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="35664" />
+      <option name="pid" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="35664">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="35664" />
+      <option name="pid" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -94,7 +95,8 @@
       <workItem from="1621319920829" duration="23000" />
       <workItem from="1621319978304" duration="5675000" />
       <workItem from="1621914287361" duration="13756000" />
-      <workItem from="1622509194614" duration="22749000" />
+      <workItem from="1622509194614" duration="23053000" />
+      <workItem from="1623716314628" duration="648000" />
     </task>
     <servers />
   </component>
