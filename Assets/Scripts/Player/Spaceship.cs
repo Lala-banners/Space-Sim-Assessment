@@ -7,7 +7,7 @@ using UnityEngine.UI;
 [RequireComponent(typeof(SpaceshipInput))]
 public class Spaceship : MonoBehaviour
 {
-    public GameObject enemy;
+    public EnemyStats enemy;
 
     [Header("Ship Stats")] 
     public bool isPlayer = false;
@@ -64,7 +64,7 @@ public class Spaceship : MonoBehaviour
 
         if (!shouldEnemySpawn)
         {
-            if (distance <= 100)
+            if (distance <= 500)
             {
                 //Spawn enemy ship
                 shouldEnemySpawn = true;

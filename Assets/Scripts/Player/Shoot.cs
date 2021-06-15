@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using TMPro;
 public class Shoot : MonoBehaviour
@@ -8,7 +9,11 @@ public class Shoot : MonoBehaviour
     private int maxAmmo = 20;
     public TMP_Text ammoText;
     public Transform firePoint;
-    
+    private EnemyStats enemy;
+
+    private void Start() {
+        enemy = FindObjectOfType<EnemyStats>();
+    }
 
     // Update is called once per frame
     void Update()
@@ -20,6 +25,12 @@ public class Shoot : MonoBehaviour
             if (hit.collider.gameObject.CompareTag("Enemy"))
             {
                 Debug.Log("Enemy Hit!");
+                if (enemy.currentHealth <= 0)
+                {
+                    Debug.Log("Enemy Ship Destroyed!");
+                    Destroy(enemy.gameObject);
+                }
+                
             }
         }
         

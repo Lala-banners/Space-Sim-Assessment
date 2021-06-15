@@ -18,7 +18,7 @@ public class ShootPlayer : MonoBehaviour
     void Update() {
         distance = Vector3.Distance(player.transform.position, transform.position);
 
-        if (distance < 100)
+        if (distance < 500)
         {
             StartCoroutine(ShootShip());
         }
