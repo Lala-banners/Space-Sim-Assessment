@@ -9,10 +9,10 @@ using UnityEngine.UI;
 public class OptionsMenu : MonoBehaviour
 {
     /* Options Menu Requirements
-     * TODO: Change colour depth buffer (Camera.SetTargetBuffers)
-     * TODO: Anti-Aliasing
-     * TODO: Anisotropic Filtering
-     * TODO: Frame rate limiter
+     * Change colour depth buffer (Camera.SetTargetBuffers)
+     * Anti-Aliasing
+     * Anisotropic Filtering
+     * Frame rate limiter
      */
     
     #region Options Menu UI
@@ -26,7 +26,11 @@ public class OptionsMenu : MonoBehaviour
     public TMP_Dropdown qualityDropdown;
     public Toggle fullscreenToggle;
     public Toggle ansiotrophicFilter;
-
+    public Camera cam;
+    public Toggle colourDepthBufferToggle;
+    public RenderTexture colourBuffer;
+    public RenderTexture depthBuffer;
+    
     [Space]
     
     [Header("Resolution Settings")]
@@ -51,6 +55,13 @@ public class OptionsMenu : MonoBehaviour
             optionsMenu.SetActive(false);
             mainMenu.SetActive(true);
         });
+    }
+
+    public void SetTargetBuffer() {
+        if (colourDepthBufferToggle.isOn)
+        {
+            cam.SetTargetBuffers(colourBuffer.colorBuffer, depthBuffer.depthBuffer);
+        }
     }
 
     public void AnsiotrophicFilterToggle() {

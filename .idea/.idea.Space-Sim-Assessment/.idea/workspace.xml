@@ -18,7 +18,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyStats.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Cross-Platform-Game/Assets/Scripts/Gameplay/Ball.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Cross-Platform-Game/Assets/Scripts/Menu/MainMenu.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/WinManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/GameUIManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../IsSus-Framework-Assessment/isSus/Assets/isSus/PlayerController 2/Scripts/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Cross-Platform-Game/Assets/Scripts/Gameplay/ObjectPool.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Cross-Platform-Game/Assets/Scripts/Gameplay/MasterPet.cs" root0="SKIP_HIGHLIGHTING" />
@@ -47,6 +47,7 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/Bullet.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/Shoot.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UI/OptionsMenu.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UI/GameUIManager.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sefav34g15vcdEW1tYHRlEkrUV" />
@@ -114,7 +115,7 @@
       <workItem from="1621914287361" duration="13756000" />
       <workItem from="1622509194614" duration="23053000" />
       <workItem from="1623716314628" duration="7972000" />
-      <workItem from="1623728470559" duration="5064000" />
+      <workItem from="1623728470559" duration="6998000" />
     </task>
     <servers />
   </component>

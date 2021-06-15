@@ -1,4 +1,5 @@
 using System;
+using TMPro;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -7,15 +8,16 @@ using UnityEngine.UI;
 /// <summary>
 /// This class will be called when the player has won the game by destroying the enemy spaceship
 /// </summary>
-public class WinManager : MonoBehaviour
+public class GameUIManager : MonoBehaviour
 {
-    [Header("Menu UI")] 
+    [Header("Win Menu UI")] 
     public GameObject winMenu;
     public Button returnMainMenu;
     public Button restartButton;
     public Button quitButton;
-
-    public static WinManager instance;
+    public TMP_Text framerateText;
+    
+    public static GameUIManager instance;
 
     private void Awake() {
         if (instance == null)
@@ -32,8 +34,16 @@ public class WinManager : MonoBehaviour
     void Start() {
         winMenu.SetActive(false);
     }
+    
+    public void LimitFrameRate() {
+        var frameRate = Application.targetFrameRate = 300;
+        framerateText.text = "Frame Rate: " + frameRate;
+    }
 
     private void Update() {
+
+        LimitFrameRate();
+        
         returnMainMenu.onClick.AddListener(() => {
             ReturnToMainMenu();
         });
@@ -47,6 +57,8 @@ public class WinManager : MonoBehaviour
         });
     }
 
+    
+    
     public void WinGame() {
         winMenu.SetActive(true);
         Time.timeScale = 0;

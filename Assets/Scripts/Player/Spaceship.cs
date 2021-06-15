@@ -114,7 +114,7 @@ public class Spaceship : MonoBehaviour
         if (currentHealth <= 0)
         {
             //Restart the game
-            WinManager.instance.Restart();
+            GameUIManager.instance.Restart();
         }
     }
 

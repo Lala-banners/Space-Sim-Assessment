@@ -41,7 +41,7 @@ public class EnemyStats : MonoBehaviour
     public void Die() {
         if (currentHealth <= 0)
         {
-            WinManager.instance.WinGame();
+            GameUIManager.instance.WinGame();
             Destroy(gameObject);
         }
     }

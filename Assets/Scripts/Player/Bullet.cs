@@ -28,7 +28,7 @@ public class Bullet : MonoBehaviour
             if (_enemyStats.currentHealth <= 0)
             {
                 _enemyStats.Die();
-                WinManager.instance.WinGame();
+                GameUIManager.instance.WinGame();
                 Debug.Log("Enemy is dead");
             }
         }
