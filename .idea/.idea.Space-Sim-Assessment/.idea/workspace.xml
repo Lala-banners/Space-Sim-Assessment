@@ -14,6 +14,7 @@
     <setting file="file://$PROJECT_DIR$/../Cross-Platform-Game/Assets/Scripts/Gameplay/_GameManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Cross-Platform-Game/Assets/Scripts/Gameplay/BallPosition.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/MainMenu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Cross-Platform-Game/Assets/Scripts/Menu/Options.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyStats.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Cross-Platform-Game/Assets/Scripts/Gameplay/Ball.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Cross-Platform-Game/Assets/Scripts/Menu/MainMenu.cs" root0="SKIP_HIGHLIGHTING" />
@@ -37,13 +38,14 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/SpaceshipPhysics.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/SpaceshipInput.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Shoot.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/UI/MainMenu.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/Spaceship.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/ShootPlayer.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UI/WinManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyStats.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/Bullet.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/Shoot.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UI/MainMenu.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UI/OptionsMenu.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sefav34g15vcdEW1tYHRlEkrUV" />
@@ -65,6 +67,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor &amp; Play">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$USER_HOME$/Desktop/DIPLOMA BUILDS/SpaceSim\SpaceSim.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\lalal\Desktop\DIPLOMA BUILDS\SpaceSim" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -103,6 +113,7 @@
       <workItem from="1621914287361" duration="13756000" />
       <workItem from="1622509194614" duration="23053000" />
       <workItem from="1623716314628" duration="7972000" />
+      <workItem from="1623728470559" duration="1776000" />
     </task>
     <servers />
   </component>
