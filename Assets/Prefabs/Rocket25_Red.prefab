@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 23039960774357322}
   - component: {fileID: 1885404601268349474}
   - component: {fileID: 8614854963890839733}
+  - component: {fileID: 6417405842838122754}
   m_Layer: 0
   m_Name: Rocket25_Red
   m_TagString: Bullet
@@ -116,6 +117,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 1885404601268349474}
   speed: 50
+  _enemyStats: {fileID: 5967971367882578701, guid: 743085f926187c04889d309d88bd9a74, type: 3}
+--- !u!65 &6417405842838122754
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1374063425668206}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.5740137, y: 15.131536, z: 6.574014}
+  m_Center: {x: -0.00000023841856, y: 0.1760423, z: -0.00000023841856}
 --- !u!1 &106461694575380379
 GameObject:
   m_ObjectHideFlags: 0

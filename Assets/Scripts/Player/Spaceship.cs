@@ -110,7 +110,8 @@ public class Spaceship : MonoBehaviour
     public void Dead() {
         if (currentHealth <= 0)
         {
-            print("Player is dead");
+            //Restart the game
+            WinManager.instance.Restart();
         }
     }
 

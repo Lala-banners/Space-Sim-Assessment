@@ -23,9 +23,9 @@ public class ShootPlayer : MonoBehaviour
             StartCoroutine(ShootShip());
         }
         
-        Debug.DrawRay(firePoint.position, -transform.up * Mathf.Infinity, Color.red);
+        Debug.DrawRay(firePoint.position, transform.up * Mathf.Infinity, Color.red);
         
-        if (Physics.Raycast(firePoint.position, -transform.up, out RaycastHit hit, Mathf.Infinity))
+        if (Physics.Raycast(firePoint.position, transform.up, out RaycastHit hit, Mathf.Infinity))
         {
             if (hit.collider.gameObject.CompareTag("Player"))
             {

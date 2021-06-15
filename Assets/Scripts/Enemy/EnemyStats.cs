@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -6,17 +7,15 @@ public class EnemyStats : MonoBehaviour
     [Header("Health")]
     public Image healthBar;
     public float currentHealth;
-    public float maximumHealth;
+    private float maximumHealth = 100f;
     public float smoothSpeed;
-    private float regenSpeed;
     public GameObject healthContainer;
 
     // Start is called before the first frame update
     void Start() {
         currentHealth = maximumHealth;
-        regenSpeed = 5f;
         healthContainer = healthBar.gameObject;
-        healthContainer.SetActive(false);
+        healthContainer.SetActive(true);
     }
 
     // Update is called once per frame
@@ -28,19 +27,33 @@ public class EnemyStats : MonoBehaviour
         
         healthBar.fillAmount = Mathf.Lerp(healthBar.fillAmount, currentHealth / maximumHealth, smoothSpeed);
         
-        Regenerate();
         ChangeHealthColour();
-    }
-
-    public void Regenerate() {
-        if (currentHealth <= maximumHealth / 25f)
-        {
-            currentHealth += regenSpeed * Time.deltaTime;
-        }
     }
 
     public void ChangeHealthColour() {
         Color healthCol = Color.Lerp(Color.red, Color.yellow, (currentHealth / maximumHealth));
         healthBar.color = healthCol;
+    }
+
+    public void Die() {
+        if (currentHealth <= 0)
+        {
+            WinManager.instance.WinGame();
+            Destroy(gameObject);
+        }
+    }
+    
+    public void TakeDamage(float _damage) {
+        if (currentHealth > 0)
+        {
+            currentHealth -= _damage;
+        }
+    }
+
+    private void OnCollisionEnter(Collision other) {
+        if (other.collider.gameObject.TryGetComponent<Bullet>(out Bullet bullet))
+        {
+            TakeDamage(10);
+        }
     }
 }
