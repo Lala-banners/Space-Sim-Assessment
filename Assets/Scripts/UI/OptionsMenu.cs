@@ -1,24 +1,27 @@
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-using UnityEngine.Audio;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
+/// <summary>
+/// This class will manage the options menu including resolution, colour depth buffer, frame rate limiter, and anisotropic filtering.
+/// </summary>
 public class OptionsMenu : MonoBehaviour
 {
-    /* Options Menu 
+    /* Options Menu Requirements
      * Resolution
-     * Change colour depth buffer (Camera.SetTargetBuffers)
-     * Anti-Aliasing
-     * Anisotropic Filtering
-     * Frame rate limiter
+     * TODO: Change colour depth buffer (Camera.SetTargetBuffers)
+     * TODO: Anti-Aliasing
+     * TODO: Anisotropic Filtering
+     * TODO: Frame rate limiter
      */
     
     #region Options Menu UI
     [Header("Menu Object")]
     public GameObject optionsMenu;
     public GameObject mainMenu;
+    
+    [Space]
     
     [Header("Quality Settings")]
     public TMP_Dropdown qualityDropdown;
@@ -50,6 +53,9 @@ public class OptionsMenu : MonoBehaviour
         });
     }
     
+    /// <summary>
+    /// This will set up the playerprefs saving and loading for the fullscreen toggle.
+    /// </summary>
     public void FullscreenPrefs() {
         if (!PlayerPrefs.HasKey("fullscreen"))
         {

@@ -2,6 +2,9 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// This class will manage the player spaceship health, damage, and general player movement.
+/// </summary>
 [RequireComponent(typeof(Rigidbody))]
 [RequireComponent(typeof(SpaceshipPhysics))]
 [RequireComponent(typeof(SpaceshipInput))]

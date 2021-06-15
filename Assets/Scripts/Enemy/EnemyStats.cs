@@ -2,6 +2,9 @@ using System;
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// This class will manage the health stats and health UI of the Enemy Spaceship.
+/// </summary>
 public class EnemyStats : MonoBehaviour
 {
     [Header("Health")]

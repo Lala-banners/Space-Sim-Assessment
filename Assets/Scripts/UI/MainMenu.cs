@@ -3,6 +3,9 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
+/// <summary>
+/// This class will manage the main menu stats, and scene loading into the game scene.
+/// </summary>
 public class MainMenu : MonoBehaviour
 {
     [Header("Buttons")]

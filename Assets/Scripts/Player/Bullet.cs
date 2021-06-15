@@ -1,6 +1,9 @@
 using System;
 using UnityEngine;
 
+/// <summary>
+/// This class will manage the bullet and if it collides with the enemy ship, to take damage.
+/// </summary>
 public class Bullet : MonoBehaviour
 {
     public Rigidbody rb;

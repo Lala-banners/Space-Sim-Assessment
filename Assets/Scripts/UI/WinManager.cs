@@ -4,6 +4,9 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
+/// <summary>
+/// This class will be called when the player has won the game by destroying the enemy spaceship
+/// </summary>
 public class WinManager : MonoBehaviour
 {
     [Header("Menu UI")] 

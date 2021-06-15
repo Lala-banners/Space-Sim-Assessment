@@ -1,7 +1,9 @@
-using System;
-using System.Collections;
-using UnityEngine;
 using TMPro;
+using UnityEngine;
+
+/// <summary>
+/// This class will manage the shooting of the bullets from the player to the enemy spaceship
+/// </summary>
 public class Shoot : MonoBehaviour
 {
     [Header("Shooting")] 
